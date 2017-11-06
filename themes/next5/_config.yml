@@ -830,3 +830,12 @@ images: images
 
 # Theme version
 version: 5.1.3
+
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git 
+  #repo: https://github.com/purice93/purice93.github.io.git 
+  repo: git@github.com:purice93/purice93.github.io.git
+  branch: master 
